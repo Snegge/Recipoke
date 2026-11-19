@@ -6,6 +6,7 @@ Hier bleiben die Unterlagen, die nicht als Wiki-Seiten oder einzelne Issues gepf
 - [Aufgabenabdeckung, Core-Abgrenzung und Annahmen](VALIDIERUNG.md)
 - [Technologieentscheidung](decisions/ADR-001-Technologie-Stack.md)
 - [Quellen und Vorlagenauszüge](nachweise/QUELLEN.md)
+- [Wireframe-Entwurf: Bilder, Daten und Story-Zuordnung](wireframes/README.md)
 
 ## In GitLab gepflegt
 
@@ -17,4 +18,4 @@ Hier bleiben die Unterlagen, die nicht als Wiki-Seiten oder einzelne Issues gepf
 
 Die lokalen Wiki- und Issue-Kopien sowie Importdateien und Übertragungsprotokolle wurden nach der Veröffentlichung entfernt. Der ursprüngliche Übertragungsstand ist über [MR !9](https://gitlab.ai.it.hs-worms.de/inf4155/Recipoke/-/merge_requests/9) dokumentiert.
 
-Die fünf eigenen Handzeichnungen und die funktionale Abnahme bleiben offen. Entwicklungsstände in diesen Unterlagen beruhen auf der statischen Bestandsaufnahme vom 18./19.11.2026; den laufenden Bearbeitungsstatus führen die GitLab-Issues.
+Die fünf Hauptansichten und zwei Dialogzustände liegen als Wireframe-Entwurf vor; Review und funktionale Abnahme bleiben offen. Entwicklungsstände in diesen Unterlagen beruhen auf der statischen Bestandsaufnahme vom 18./19.11.2026; den laufenden Bearbeitungsstatus führen die GitLab-Issues.

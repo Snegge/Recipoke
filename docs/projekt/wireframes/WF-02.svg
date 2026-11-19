@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060" role="img" aria-labelledby="title desc">
+<title id="title">WF-02 – Kochbuch wählen</title><desc id="desc">US-02 · US-01 (Abmelden). D: Datenanzeige. E: Backend-Eingabe oder Auftrag. L: lokale Aktion. Mobile Ansicht und Desktop-Schema.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}path{stroke-width:1.2}</style>
+<rect x="0" y="0" width="1000" height="1060" rx="0" fill="#f7f8fa" stroke="#f7f8fa" opacity="1"/>
+<text x="48" y="42" font-size="12" font-weight="650" fill="#586470">RECIPOKE / CORE WIREFRAMES</text>
+<text x="48" y="84" font-size="29" font-weight="650" fill="#202933">WF-02  Kochbuch wählen</text>
+<text x="48" y="111" font-size="14" font-weight="400" fill="#586470">US-02 · US-01 (Abmelden)  ·  Entwurf · 19.11.2026</text>
+<rect x="48" y="144" width="390" height="770" rx="12" fill="white" stroke="#202933" opacity="1"/>
+<path d="M48 206 L438 206" fill="none" stroke="#c7ced5"/>
+<text x="66" y="182" font-size="23" font-weight="400" fill="#202933">☰</text>
+<text x="122" y="182" font-size="17" font-weight="650" fill="#202933">Kochbücher</text>
+<text x="48" y="942" font-size="12" font-weight="400" fill="#586470">390 px · Scrollinhalt · Maße in CSS-Pixeln</text>
+<text x="492" y="155" font-size="12" font-weight="650" fill="#586470">MARKIERUNGEN IM BILDSCHIRM</text>
+<text x="64" y="250" font-size="18" font-weight="650" fill="#202933">Deine Sammlung</text>
+<text x="335" y="250" font-size="12" font-weight="400" fill="#202933">2 Bücher</text>
+<rect x="64" y="273" width="173" height="151" rx="8" fill="#f1f3f5" stroke="#c7ced5" opacity="1"/>
+<path d="M78 287 L223 410" fill="none" stroke="#c7ced5"/>
+<path d="M223 287 L78 410" fill="none" stroke="#c7ced5"/>
+<rect x="105.5" y="334.5" width="90" height="28" rx="0" fill="#f1f3f5" stroke="#f1f3f5" opacity="1"/>
+<text x="120.5" y="353.5" font-size="13" font-weight="400" fill="#586470">Cover</text>
+<rect x="197" y="283" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="202" y="299" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<rect x="72" y="385" width="65" height="24" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="80" y="402" font-size="12" font-weight="400" fill="#202933">Owner</text>
+<rect x="64" y="424" width="173" height="93" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="454" font-size="15" font-weight="650" fill="#202933">Meine Rezepte</text>
+<text x="76" y="480" font-size="13" font-weight="400" fill="#586470">12 Rezepte</text>
+<rect x="249" y="273" width="173" height="151" rx="8" fill="#f1f3f5" stroke="#c7ced5" opacity="1"/>
+<path d="M263 287 L408 410" fill="none" stroke="#c7ced5"/>
+<path d="M408 287 L263 410" fill="none" stroke="#c7ced5"/>
+<rect x="290.5" y="334.5" width="90" height="28" rx="0" fill="#f1f3f5" stroke="#f1f3f5" opacity="1"/>
+<text x="305.5" y="353.5" font-size="13" font-weight="400" fill="#586470">Cover</text>
+<rect x="382" y="283" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="387" y="299" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<rect x="257" y="385" width="65" height="24" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="265" y="402" font-size="12" font-weight="400" fill="#202933">Viewer</text>
+<rect x="249" y="424" width="173" height="93" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="261" y="454" font-size="15" font-weight="650" fill="#202933">Familienküche</text>
+<text x="261" y="480" font-size="13" font-weight="400" fill="#586470">8 Rezepte</text>
+<rect x="386" y="489" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="391" y="505" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<text x="64" y="561" font-size="13" font-weight="400" fill="#586470">Karte antippen → Rezepte</text>
+<rect x="492" y="182" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="198" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="538" y="199" font-size="17" font-weight="650" fill="#202933">Sammlung</text>
+<text x="538" y="225" font-size="14" font-weight="400" fill="#586470">Name · Cover / Platzhalter · Rolle · Anzahl</text>
+<text x="538" y="248" font-size="14" font-weight="400" fill="#586470">Beschreibung erst in der Desktop-Karte.</text>
+<rect x="492" y="300" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="316" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<text x="538" y="317" font-size="17" font-weight="650" fill="#202933">Kochbuch öffnen</text>
+<text x="538" y="343" font-size="14" font-weight="400" fill="#586470">cookbookId in der Route; Ziel lädt den Kontext.</text>
+<text x="538" y="366" font-size="14" font-weight="400" fill="#586470">Kein Speichern der Auswahl.</text>
+<text x="492" y="443" font-size="12" font-weight="650" fill="#586470">MOBILES MENÜ · Ausschnitt für US-01</text>
+<rect x="492" y="460" width="450" height="165" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="512" y="492" font-size="17" font-weight="650" fill="#202933">☰  Recipoke</text>
+<text x="512" y="522" font-size="14" font-weight="400" fill="#202933">Mara · koch_a</text>
+<rect x="895" y="503" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="900" y="519" font-size="12" font-weight="650" fill="#205b92">D2</text>
+<rect x="512" y="553" width="410" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="524" y="582" font-size="14" font-weight="650" fill="#202933">Abmelden</text>
+<rect x="884" y="564" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="889" y="580" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<rect x="492" y="653" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="669" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="538" y="670" font-size="17" font-weight="650" fill="#202933">Sitzung beenden</text>
+<text x="538" y="696" font-size="14" font-weight="400" fill="#586470">POST Logout · danach Anmeldung</text>
+<text x="538" y="719" font-size="14" font-weight="400" fill="#586470">Netzfehler ist kein bestätigter Logout.</text>
+<text x="492" y="789" font-size="16" font-weight="650" fill="#202933">Desktop · 4 Karten; bis 1000 px 3 Karten</text>
+<rect x="492" y="809" width="450" height="180" rx="8" fill="#fafbfc" stroke="#c7ced5" opacity="1"/>
+<rect x="504" y="821" width="426" height="23" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="515" y="837" font-size="11" font-weight="400" fill="#202933">Recipoke     Kochbücher                           Konto   ↗</text>
+<rect x="504" y="853" width="96" height="90" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="514" y="873" font-size="11" font-weight="400" fill="#202933">Buch 1</text>
+<rect x="614" y="853" width="96" height="90" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="624" y="873" font-size="11" font-weight="400" fill="#202933">Buch 2</text>
+<rect x="724" y="853" width="96" height="90" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="734" y="873" font-size="11" font-weight="400" fill="#202933">Buch 3</text>
+<rect x="834" y="853" width="96" height="90" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="844" y="873" font-size="11" font-weight="400" fill="#202933">Buch 4</text>
+<path d="M48 1008 L952 1008" fill="none" stroke="#c7ced5"/>
+<rect x="48" y="1021" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="53" y="1037" font-size="12" font-weight="650" fill="#205b92">D</text>
+<text x="90" y="1038" font-size="13" font-weight="400" fill="#586470">Backend → Anzeige</text>
+<rect x="345" y="1021" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="350" y="1037" font-size="12" font-weight="650" fill="#8d4d0c">E</text>
+<text x="387" y="1038" font-size="13" font-weight="400" fill="#586470">Eingabe → Backend</text>
+<rect x="650" y="1021" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="655" y="1037" font-size="12" font-weight="650" fill="#48545f">L</text>
+<text x="692" y="1038" font-size="13" font-weight="400" fill="#586470">Nur lokal / Navigation</text>
+</svg>

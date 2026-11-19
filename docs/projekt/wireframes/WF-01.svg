@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060" role="img" aria-labelledby="title desc">
+<title id="title">WF-01 – Anmelden</title><desc id="desc">US-01. D: Datenanzeige. E: Backend-Eingabe oder Auftrag. L: lokale Aktion. Mobile Ansicht und Desktop-Schema.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}path{stroke-width:1.2}</style>
+<rect x="0" y="0" width="1000" height="1060" rx="0" fill="#f7f8fa" stroke="#f7f8fa" opacity="1"/>
+<text x="48" y="42" font-size="12" font-weight="650" fill="#586470">RECIPOKE / CORE WIREFRAMES</text>
+<text x="48" y="84" font-size="29" font-weight="650" fill="#202933">WF-01  Anmelden</text>
+<text x="48" y="111" font-size="14" font-weight="400" fill="#586470">US-01  ·  Entwurf · 19.11.2026</text>
+<rect x="48" y="144" width="390" height="770" rx="12" fill="white" stroke="#202933" opacity="1"/>
+<path d="M48 206 L438 206" fill="none" stroke="#c7ced5"/>
+<text x="66" y="182" font-size="23" font-weight="400" fill="#202933">☰</text>
+<text x="122" y="182" font-size="17" font-weight="650" fill="#202933">Anmelden</text>
+<text x="48" y="942" font-size="12" font-weight="400" fill="#586470">390 px · Scrollinhalt · Maße in CSS-Pixeln</text>
+<text x="492" y="155" font-size="12" font-weight="650" fill="#586470">MARKIERUNGEN IM BILDSCHIRM</text>
+<rect x="80" y="276" width="326" height="420" rx="8" fill="#fafbfc" stroke="#c7ced5" opacity="1"/>
+<text x="164" y="324" font-size="22" font-weight="650" fill="#202933">RECIPOKE</text>
+<rect x="100" y="358" width="286" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="112" y="376" font-size="11" font-weight="400" fill="#586470">Benutzername *</text>
+<text x="112" y="399" font-size="15" font-weight="400" fill="#202933">koch_a</text>
+<rect x="348" y="365" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="353" y="381" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<rect x="100" y="433" width="286" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="112" y="451" font-size="11" font-weight="400" fill="#586470">Passwort *</text>
+<text x="112" y="474" font-size="15" font-weight="400" fill="#202933">••••••••</text>
+<rect x="348" y="440" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="353" y="456" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="291" y="520" font-size="13" font-weight="400" fill="#202933">Anzeigen</text>
+<rect x="350" y="501" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="355" y="517" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<rect x="100" y="549" width="286" height="46" rx="7" fill="#202933" stroke="#202933" opacity="1"/>
+<text x="112" y="578" font-size="14" font-weight="650" fill="white">Anmelden</text>
+<rect x="348" y="560" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="353" y="576" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="100" y="630" font-size="13" font-weight="400" fill="#202933">Anmeldung fehlgeschlagen.</text>
+<rect x="350" y="610" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="355" y="626" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="100" y="657" font-size="11" font-weight="400" fill="#586470">Nur bei Fehler sichtbar</text>
+<rect x="492" y="182" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="198" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="538" y="199" font-size="17" font-weight="650" fill="#202933">Zugang öffnen</text>
+<text x="538" y="225" font-size="14" font-weight="400" fill="#586470">username · password</text>
+<text x="538" y="248" font-size="14" font-weight="400" fill="#586470">Erst „Anmelden“ sendet.</text>
+<rect x="492" y="300" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="316" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="538" y="317" font-size="17" font-weight="650" fill="#202933">Rückmeldung</text>
+<text x="538" y="343" font-size="14" font-weight="400" fill="#586470">Generischer Fehler; keine Kontenauskunft.</text>
+<text x="538" y="366" font-size="14" font-weight="400" fill="#586470">Erfolg → Kochbücher / internes Rücksprungziel.</text>
+<rect x="492" y="418" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="434" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<text x="538" y="435" font-size="17" font-weight="650" fill="#202933">Passwort sichtbar / verdeckt</text>
+<text x="538" y="461" font-size="14" font-weight="400" fill="#586470">Pflichtfelder prüfen · kein Request bei leerem Feld.</text>
+<text x="492" y="566" font-size="16" font-weight="650" fill="#202933">Desktop · zentrierte Karte, max. 440 px</text>
+<rect x="492" y="586" width="450" height="180" rx="8" fill="#fafbfc" stroke="#c7ced5" opacity="1"/>
+<rect x="504" y="598" width="426" height="23" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="515" y="614" font-size="11" font-weight="400" fill="#202933">Recipoke</text>
+<rect x="624" y="634" width="188" height="108" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="634" y="654" font-size="11" font-weight="400" fill="#202933">Anmeldeformular</text>
+<text x="492" y="805" font-size="12" font-weight="650" fill="#586470">ZUSTÄNDE</text>
+<text x="492" y="835" font-size="14" font-weight="400" fill="#202933">Leer → Eingabe → beschäftigt → Erfolg / Fehler</text>
+<path d="M48 1008 L952 1008" fill="none" stroke="#c7ced5"/>
+<rect x="48" y="1021" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="53" y="1037" font-size="12" font-weight="650" fill="#205b92">D</text>
+<text x="90" y="1038" font-size="13" font-weight="400" fill="#586470">Backend → Anzeige</text>
+<rect x="345" y="1021" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="350" y="1037" font-size="12" font-weight="650" fill="#8d4d0c">E</text>
+<text x="387" y="1038" font-size="13" font-weight="400" fill="#586470">Eingabe → Backend</text>
+<rect x="650" y="1021" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="655" y="1037" font-size="12" font-weight="650" fill="#48545f">L</text>
+<text x="692" y="1038" font-size="13" font-weight="400" fill="#586470">Nur lokal / Navigation</text>
+</svg>

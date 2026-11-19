@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1138" viewBox="0 0 1000 1138" role="img" aria-labelledby="title desc">
+<title id="title">WF-03 – Rezepte finden</title><desc id="desc">US-03 · US-02. D: Datenanzeige. E: Backend-Eingabe oder Auftrag. L: lokale Aktion. Mobile Ansicht und Desktop-Schema.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}path{stroke-width:1.2}</style>
+<rect x="0" y="0" width="1000" height="1138" rx="0" fill="#f7f8fa" stroke="#f7f8fa" opacity="1"/>
+<text x="48" y="42" font-size="12" font-weight="650" fill="#586470">RECIPOKE / CORE WIREFRAMES</text>
+<text x="48" y="84" font-size="29" font-weight="650" fill="#202933">WF-03  Rezepte finden</text>
+<text x="48" y="111" font-size="14" font-weight="400" fill="#586470">US-03 · US-02  ·  Entwurf · 19.11.2026</text>
+<rect x="48" y="144" width="390" height="900" rx="12" fill="white" stroke="#202933" opacity="1"/>
+<path d="M48 206 L438 206" fill="none" stroke="#c7ced5"/>
+<text x="66" y="182" font-size="23" font-weight="400" fill="#202933">☰</text>
+<text x="122" y="182" font-size="17" font-weight="650" fill="#202933">Rezepte</text>
+<text x="405" y="182" font-size="22" font-weight="400" fill="#202933">←</text>
+<text x="48" y="1072" font-size="12" font-weight="400" fill="#586470">390 px · Scrollinhalt · Maße in CSS-Pixeln</text>
+<text x="492" y="155" font-size="12" font-weight="650" fill="#586470">MARKIERUNGEN IM BILDSCHIRM</text>
+<text x="64" y="238" font-size="14" font-weight="400" fill="#202933">← Alle Kochbücher</text>
+<rect x="64" y="258" width="358" height="46" rx="7" fill="#202933" stroke="#202933" opacity="1"/>
+<text x="76" y="287" font-size="14" font-weight="650" fill="white">+ Rezept anlegen</text>
+<rect x="384" y="269" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="389" y="285" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<rect x="64" y="328" width="358" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="346" font-size="11" font-weight="400" fill="#586470">Rezept oder Zutat suchen</text>
+<text x="76" y="369" font-size="15" font-weight="400" fill="#202933">Tomate</text>
+<rect x="384" y="335" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="389" y="351" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="64" y="411" font-size="14" font-weight="400" fill="#202933">14 Rezepte</text>
+<text x="284" y="411" font-size="12" font-weight="400" fill="#202933">Zuletzt geändert</text>
+<rect x="181" y="393" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="186" y="409" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<rect x="64" y="435" width="358" height="155" rx="8" fill="#f1f3f5" stroke="#c7ced5" opacity="1"/>
+<path d="M78 449 L408 576" fill="none" stroke="#c7ced5"/>
+<path d="M408 449 L78 576" fill="none" stroke="#c7ced5"/>
+<rect x="198.0" y="498.5" width="90" height="28" rx="0" fill="#f1f3f5" stroke="#f1f3f5" opacity="1"/>
+<text x="213.0" y="517.5" font-size="13" font-weight="400" fill="#586470">Rezeptfoto</text>
+<rect x="382" y="445" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="387" y="461" font-size="12" font-weight="650" fill="#205b92">D2</text>
+<rect x="64" y="590" width="358" height="140" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="80" y="621" font-size="21" font-weight="650" fill="#202933">Tomatenpasta</text>
+<text x="80" y="650" font-size="14" font-weight="400" fill="#202933">Schnelles Abendessen</text>
+<text x="80" y="679" font-size="12" font-weight="400" fill="#586470">2 Portionen · aktualisiert 19.11.2026</text>
+<rect x="384" y="698" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="389" y="714" font-size="12" font-weight="650" fill="#48545f">L2</text>
+<rect x="64" y="751" width="358" height="60" rx="8" fill="#f1f3f5" stroke="#c7ced5" opacity="1"/>
+<text x="80" y="785" font-size="14" font-weight="400" fill="#586470">Weitere Rezeptkarten …</text>
+<text x="80" y="863" font-size="16" font-weight="400" fill="#202933">1–12 von 14</text>
+<rect x="263" y="835" width="73" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="275" y="864" font-size="14" font-weight="650" fill="#202933">←</text>
+<rect x="349" y="835" width="73" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="361" y="864" font-size="14" font-weight="650" fill="#202933">→</text>
+<rect x="384" y="846" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="389" y="862" font-size="12" font-weight="650" fill="#8d4d0c">E2</text>
+<rect x="492" y="182" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="198" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="538" y="199" font-size="17" font-weight="650" fill="#202933">Suchen</text>
+<text x="538" y="225" font-size="14" font-weight="400" fill="#586470">search · page = 1 · pageSize = 12</text>
+<text x="538" y="248" font-size="14" font-weight="400" fill="#586470">GET nach 250 ms Eingabepause.</text>
+<rect x="492" y="300" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="316" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="538" y="317" font-size="17" font-weight="650" fill="#202933">Ergebniszahl</text>
+<text x="538" y="343" font-size="14" font-weight="400" fill="#586470">total; bei &gt; 12 Treffern Seitenwechsel.</text>
+<rect x="492" y="395" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="411" font-size="12" font-weight="650" fill="#205b92">D2</text>
+<text x="538" y="412" font-size="17" font-weight="650" fill="#202933">Rezeptkarte</text>
+<text x="538" y="438" font-size="14" font-weight="400" fill="#586470">Titel · Kurztext · Portionen · Datum · Foto</text>
+<rect x="492" y="490" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="506" font-size="12" font-weight="650" fill="#8d4d0c">E2</text>
+<text x="538" y="507" font-size="17" font-weight="650" fill="#202933">Blättern</text>
+<text x="538" y="533" font-size="14" font-weight="400" fill="#586470">page + aktuelle Suche → neuer GET</text>
+<rect x="492" y="585" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="601" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<text x="538" y="602" font-size="17" font-weight="650" fill="#202933">Neues Rezept</text>
+<text x="538" y="628" font-size="14" font-weight="400" fill="#586470">Nur Owner / Editor · öffnet WF-04</text>
+<rect x="492" y="680" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="696" font-size="12" font-weight="650" fill="#48545f">L2</text>
+<text x="538" y="697" font-size="17" font-weight="650" fill="#202933">Rezept öffnen</text>
+<text x="538" y="723" font-size="14" font-weight="400" fill="#586470">Karte → WF-05 · zurück → WF-02</text>
+<text x="492" y="792" font-size="16" font-weight="650" fill="#202933">Desktop · 3 Spalten ab 850 px; 2 ab 600 px</text>
+<rect x="492" y="812" width="450" height="180" rx="8" fill="#fafbfc" stroke="#c7ced5" opacity="1"/>
+<rect x="504" y="824" width="426" height="23" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="515" y="840" font-size="11" font-weight="400" fill="#202933">Recipoke     Kochbücher                           Konto   ↗</text>
+<rect x="504" y="856" width="426" height="27" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="514" y="876" font-size="11" font-weight="400" fill="#202933">Suche / Kontext mit Rolle</text>
+<rect x="504" y="895" width="134" height="64" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="514" y="915" font-size="11" font-weight="400" fill="#202933">Rezept 1</text>
+<rect x="650" y="895" width="134" height="64" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="660" y="915" font-size="11" font-weight="400" fill="#202933">Rezept 2</text>
+<rect x="796" y="895" width="134" height="64" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="806" y="915" font-size="11" font-weight="400" fill="#202933">Rezept 3</text>
+<path d="M48 1086 L952 1086" fill="none" stroke="#c7ced5"/>
+<rect x="48" y="1099" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="53" y="1115" font-size="12" font-weight="650" fill="#205b92">D</text>
+<text x="90" y="1116" font-size="13" font-weight="400" fill="#586470">Backend → Anzeige</text>
+<rect x="345" y="1099" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="350" y="1115" font-size="12" font-weight="650" fill="#8d4d0c">E</text>
+<text x="387" y="1116" font-size="13" font-weight="400" fill="#586470">Eingabe → Backend</text>
+<rect x="650" y="1099" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="655" y="1115" font-size="12" font-weight="650" fill="#48545f">L</text>
+<text x="692" y="1116" font-size="13" font-weight="400" fill="#586470">Nur lokal / Navigation</text>
+</svg>
