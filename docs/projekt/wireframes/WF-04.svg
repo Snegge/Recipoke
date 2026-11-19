@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1768" viewBox="0 0 1000 1768" role="img" aria-labelledby="title desc">
+<title id="title">WF-04 – Rezept erfassen / bearbeiten</title><desc id="desc">US-04 · US-06 · US-07. D: Datenanzeige. E: Backend-Eingabe oder Auftrag. L: lokale Aktion. Mobile Ansicht und Desktop-Schema.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}path{stroke-width:1.2}</style>
+<rect x="0" y="0" width="1000" height="1768" rx="0" fill="#f7f8fa" stroke="#f7f8fa" opacity="1"/>
+<text x="48" y="42" font-size="12" font-weight="650" fill="#586470">RECIPOKE / CORE WIREFRAMES</text>
+<text x="48" y="84" font-size="29" font-weight="650" fill="#202933">WF-04  Rezept erfassen / bearbeiten</text>
+<text x="48" y="111" font-size="14" font-weight="400" fill="#586470">US-04 · US-06 · US-07  ·  Entwurf · 19.11.2026</text>
+<rect x="48" y="144" width="390" height="1530" rx="12" fill="white" stroke="#202933" opacity="1"/>
+<path d="M48 206 L438 206" fill="none" stroke="#c7ced5"/>
+<text x="66" y="182" font-size="23" font-weight="400" fill="#202933">☰</text>
+<text x="122" y="182" font-size="17" font-weight="650" fill="#202933">Rezept bearbeiten</text>
+<text x="405" y="182" font-size="22" font-weight="400" fill="#202933">←</text>
+<text x="48" y="1702" font-size="12" font-weight="400" fill="#586470">390 px · Scrollinhalt · Maße in CSS-Pixeln</text>
+<text x="492" y="155" font-size="12" font-weight="650" fill="#586470">MARKIERUNGEN IM BILDSCHIRM</text>
+<text x="64" y="246" font-size="20" font-weight="650" fill="#202933">Grunddaten</text>
+<rect x="384" y="226" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="389" y="242" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<rect x="64" y="270" width="358" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="288" font-size="11" font-weight="400" fill="#586470">Titel *</text>
+<text x="76" y="311" font-size="15" font-weight="400" fill="#202933">Tomatenpasta</text>
+<rect x="64" y="343" width="358" height="85" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="361" font-size="11" font-weight="400" fill="#586470">Beschreibung</text>
+<text x="76" y="384" font-size="15" font-weight="400" fill="#202933">Schnelles Abendessen</text>
+<rect x="64" y="446" width="100" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="464" font-size="11" font-weight="400" fill="#586470">Portionen *</text>
+<text x="76" y="487" font-size="15" font-weight="400" fill="#202933">2</text>
+<rect x="180" y="446" width="242" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="192" y="464" font-size="11" font-weight="400" fill="#586470">Quellenlink</text>
+<text x="192" y="487" font-size="15" font-weight="400" fill="#202933">https://…</text>
+<rect x="64" y="523" width="358" height="154" rx="8" fill="#f1f3f5" stroke="#c7ced5" opacity="1"/>
+<path d="M78 537 L408 663" fill="none" stroke="#c7ced5"/>
+<path d="M408 537 L78 663" fill="none" stroke="#c7ced5"/>
+<rect x="198.0" y="586.0" width="90" height="28" rx="0" fill="#f1f3f5" stroke="#f1f3f5" opacity="1"/>
+<text x="213.0" y="605.0" font-size="13" font-weight="400" fill="#586470">Fotovorschau</text>
+<rect x="382" y="533" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="387" y="549" font-size="12" font-weight="650" fill="#205b92">D2</text>
+<rect x="64" y="691" width="292" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="76" y="720" font-size="14" font-weight="650" fill="#202933">Foto wählen</text>
+<rect x="318" y="702" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="323" y="718" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<rect x="368" y="691" width="54" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="380" y="720" font-size="14" font-weight="650" fill="#202933">×</text>
+<text x="64" y="758" font-size="12" font-weight="400" fill="#586470">JPEG · PNG · WebP</text>
+<path d="M64 784 L422 784" fill="none" stroke="#c7ced5"/>
+<text x="64" y="818" font-size="20" font-weight="650" fill="#202933">Zutaten</text>
+<rect x="384" y="798" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="389" y="814" font-size="12" font-weight="650" fill="#8d4d0c">E2</text>
+<rect x="64" y="837" width="358" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="855" font-size="11" font-weight="400" fill="#586470">Schnelleingabe</text>
+<text x="76" y="878" font-size="15" font-weight="400" fill="#202933">200 g Tomaten</text>
+<rect x="384" y="844" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="389" y="860" font-size="12" font-weight="650" fill="#48545f">L2</text>
+<rect x="64" y="905" width="358" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="76" y="934" font-size="14" font-weight="650" fill="#202933">+ Zutat übernehmen</text>
+<rect x="64" y="971" width="358" height="220" rx="8" fill="#f7f8fa" stroke="#c7ced5" opacity="1"/>
+<rect x="76" y="985" width="280" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="88" y="1003" font-size="11" font-weight="400" fill="#586470">Zutat *</text>
+<text x="88" y="1026" font-size="15" font-weight="400" fill="#202933">Tomaten</text>
+<text x="383" y="1017" font-size="22" font-weight="400" fill="#202933">×</text>
+<rect x="76" y="1054" width="134" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="88" y="1072" font-size="11" font-weight="400" fill="#586470">Menge *</text>
+<text x="88" y="1095" font-size="15" font-weight="400" fill="#202933">200</text>
+<rect x="222" y="1054" width="134" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="234" y="1072" font-size="11" font-weight="400" fill="#586470">Einheit</text>
+<text x="234" y="1095" font-size="15" font-weight="400" fill="#202933">g  ▾</text>
+<rect x="318" y="1061" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="323" y="1077" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<rect x="76" y="1123" width="280" height="55" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="88" y="1141" font-size="11" font-weight="400" fill="#586470">Notiz</text>
+<text x="88" y="1164" font-size="15" font-weight="400" fill="#202933">gewürfelt</text>
+<rect x="64" y="1205" width="358" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="76" y="1234" font-size="14" font-weight="650" fill="#202933">+ Manuell hinzufügen</text>
+<rect x="384" y="1216" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="389" y="1232" font-size="12" font-weight="650" fill="#48545f">L2</text>
+<path d="M64 1276 L422 1276" fill="none" stroke="#c7ced5"/>
+<text x="64" y="1310" font-size="20" font-weight="650" fill="#202933">Zubereitung</text>
+<rect x="384" y="1290" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="389" y="1306" font-size="12" font-weight="650" fill="#8d4d0c">E3</text>
+<rect x="64" y="1331" width="302" height="75" rx="8" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="76" y="1349" font-size="11" font-weight="400" fill="#586470">Schritt 1 *</text>
+<text x="76" y="1372" font-size="15" font-weight="400" fill="#202933">Tomaten schneiden.</text>
+<text x="391" y="1370" font-size="22" font-weight="400" fill="#202933">×</text>
+<rect x="64" y="1422" width="358" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="76" y="1451" font-size="14" font-weight="650" fill="#202933">+ Schritt hinzufügen</text>
+<rect x="384" y="1433" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="389" y="1449" font-size="12" font-weight="650" fill="#48545f">L2</text>
+<rect x="49" y="1530" width="388" height="143" rx="0" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="64" y="1565" font-size="13" font-weight="400" fill="#586470">Bereit zum Speichern</text>
+<rect x="64" y="1582" width="358" height="46" rx="7" fill="#202933" stroke="#202933" opacity="1"/>
+<text x="76" y="1611" font-size="14" font-weight="650" fill="white">Rezept speichern</text>
+<rect x="384" y="1593" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="389" y="1609" font-size="12" font-weight="650" fill="#8d4d0c">E4</text>
+<rect x="492" y="182" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="198" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="538" y="199" font-size="17" font-weight="650" fill="#202933">Vorbelegung &amp; Einheiten</text>
+<text x="538" y="225" font-size="14" font-weight="400" fill="#586470">Bei Bearbeitung: aktuelles Rezept + version.</text>
+<text x="538" y="248" font-size="14" font-weight="400" fill="#586470">Einheitenliste aus Backend; bleibt Auswahl.</text>
+<rect x="492" y="300" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="316" font-size="12" font-weight="650" fill="#205b92">D2</text>
+<text x="538" y="317" font-size="17" font-weight="650" fill="#202933">Foto / Vorschau</text>
+<text x="538" y="343" font-size="14" font-weight="400" fill="#586470">Bestehendes Foto vom Backend.</text>
+<text x="538" y="366" font-size="14" font-weight="400" fill="#586470">Neue Auswahl ist zunächst nur lokal.</text>
+<rect x="492" y="418" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="434" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="538" y="435" font-size="17" font-weight="650" fill="#202933">Grunddaten</text>
+<text x="538" y="461" font-size="14" font-weight="400" fill="#586470">title · description · servings · sourceUrl</text>
+<rect x="492" y="513" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="529" font-size="12" font-weight="650" fill="#8d4d0c">E2</text>
+<text x="538" y="530" font-size="17" font-weight="650" fill="#202933">Zutatenliste</text>
+<text x="538" y="556" font-size="14" font-weight="400" fill="#586470">name · quantity (Text) · unit · note</text>
+<text x="538" y="579" font-size="14" font-weight="400" fill="#586470">Reihenfolge des Arrays bleibt erhalten.</text>
+<rect x="492" y="631" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="647" font-size="12" font-weight="650" fill="#8d4d0c">E3</text>
+<text x="538" y="648" font-size="17" font-weight="650" fill="#202933">Schritte</text>
+<text x="538" y="674" font-size="14" font-weight="400" fill="#586470">steps[] · geordnete Texte</text>
+<rect x="492" y="726" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="742" font-size="12" font-weight="650" fill="#8d4d0c">E4</text>
+<text x="538" y="743" font-size="17" font-weight="650" fill="#202933">Erst Speichern schreibt</text>
+<text x="538" y="769" font-size="14" font-weight="400" fill="#586470">Neu: POST · Bearbeiten: PUT + expectedVersion</text>
+<text x="538" y="792" font-size="14" font-weight="400" fill="#586470">Danach ggf. Foto-PUT / -DELETE mit If-Match.</text>
+<rect x="492" y="844" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="860" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<text x="538" y="861" font-size="17" font-weight="650" fill="#202933">Foto vormerken</text>
+<text x="538" y="887" font-size="14" font-weight="400" fill="#586470">Auswählen / entfernen lädt noch nichts hoch.</text>
+<rect x="492" y="939" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="955" font-size="12" font-weight="650" fill="#48545f">L2</text>
+<text x="538" y="956" font-size="17" font-weight="650" fill="#202933">Entwurf bearbeiten</text>
+<text x="538" y="982" font-size="14" font-weight="400" fill="#586470">Schnelleingabe, Zeilen +/× bleiben lokal.</text>
+<text x="492" y="1070" font-size="16" font-weight="650" fill="#202933">Desktop · Felder + Foto ab 850 px</text>
+<rect x="492" y="1090" width="450" height="180" rx="8" fill="#fafbfc" stroke="#c7ced5" opacity="1"/>
+<rect x="504" y="1102" width="426" height="23" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="515" y="1118" font-size="11" font-weight="400" fill="#202933">Recipoke     Kochbücher                           Konto   ↗</text>
+<rect x="504" y="1134" width="285" height="53" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="514" y="1154" font-size="11" font-weight="400" fill="#202933">Grunddaten</text>
+<rect x="801" y="1134" width="129" height="53" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="811" y="1154" font-size="11" font-weight="400" fill="#202933">Foto</text>
+<rect x="504" y="1199" width="426" height="25" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="514" y="1219" font-size="11" font-weight="400" fill="#202933">Zutaten / Schritte</text>
+<rect x="504" y="1236" width="426" height="24" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="514" y="1256" font-size="11" font-weight="400" fill="#202933">Sticky: Speichern</text>
+<text x="492" y="1325" font-size="12" font-weight="650" fill="#586470">LAYOUT</text>
+<text x="492" y="1355" font-size="14" font-weight="400" fill="#202933">16 px Rand · 16 px Feldabstand · eine Spalte</text>
+<text x="492" y="1383" font-size="14" font-weight="400" fill="#202933">Scrollansicht; Speichern bleibt unten sichtbar.</text>
+<text x="492" y="1441" font-size="12" font-weight="650" fill="#586470">ZUSTÄNDE</text>
+<text x="492" y="1471" font-size="14" font-weight="400" fill="#202933">Fehler am Feld · beschäftigt · Foto-Teilerfolg</text>
+<text x="492" y="1499" font-size="14" font-weight="400" fill="#202933">Konflikt → WF-06 · Rechteverlust → Save gesperrt</text>
+<path d="M48 1716 L952 1716" fill="none" stroke="#c7ced5"/>
+<rect x="48" y="1729" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="53" y="1745" font-size="12" font-weight="650" fill="#205b92">D</text>
+<text x="90" y="1746" font-size="13" font-weight="400" fill="#586470">Backend → Anzeige</text>
+<rect x="345" y="1729" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="350" y="1745" font-size="12" font-weight="650" fill="#8d4d0c">E</text>
+<text x="387" y="1746" font-size="13" font-weight="400" fill="#586470">Eingabe → Backend</text>
+<rect x="650" y="1729" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="655" y="1745" font-size="12" font-weight="650" fill="#48545f">L</text>
+<text x="692" y="1746" font-size="13" font-weight="400" fill="#586470">Nur lokal / Navigation</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060" role="img" aria-labelledby="title desc">
+<title id="title">WF-07 – Löschen bestätigen</title><desc id="desc">US-08 · Zustand von WF-05. D: Datenanzeige. E: Backend-Eingabe oder Auftrag. L: lokale Aktion. Mobile Ansicht und Desktop-Schema.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}path{stroke-width:1.2}</style>
+<rect x="0" y="0" width="1000" height="1060" rx="0" fill="#f7f8fa" stroke="#f7f8fa" opacity="1"/>
+<text x="48" y="42" font-size="12" font-weight="650" fill="#586470">RECIPOKE / CORE WIREFRAMES</text>
+<text x="48" y="84" font-size="29" font-weight="650" fill="#202933">WF-07  Löschen bestätigen</text>
+<text x="48" y="111" font-size="14" font-weight="400" fill="#586470">US-08 · Zustand von WF-05  ·  Entwurf · 19.11.2026</text>
+<rect x="48" y="144" width="390" height="770" rx="12" fill="white" stroke="#202933" opacity="1"/>
+<path d="M48 206 L438 206" fill="none" stroke="#c7ced5"/>
+<text x="66" y="182" font-size="23" font-weight="400" fill="#202933">☰</text>
+<text x="122" y="182" font-size="17" font-weight="650" fill="#202933">Rezept</text>
+<text x="405" y="182" font-size="22" font-weight="400" fill="#202933">←</text>
+<text x="48" y="942" font-size="12" font-weight="400" fill="#586470">390 px · Scrollinhalt · Maße in CSS-Pixeln</text>
+<text x="492" y="155" font-size="12" font-weight="650" fill="#586470">MARKIERUNGEN IM BILDSCHIRM</text>
+<text x="64" y="250" font-size="27" font-weight="650" fill="#202933">Tomatenpasta</text>
+<rect x="64" y="280" width="358" height="220" rx="8" fill="#f1f3f5" stroke="#c7ced5" opacity="1"/>
+<path d="M78 294 L408 486" fill="none" stroke="#c7ced5"/>
+<path d="M408 294 L78 486" fill="none" stroke="#c7ced5"/>
+<rect x="198.0" y="376.0" width="90" height="28" rx="0" fill="#f1f3f5" stroke="#f1f3f5" opacity="1"/>
+<text x="213.0" y="395.0" font-size="13" font-weight="400" fill="#586470">Rezeptfoto</text>
+<rect x="49" y="207" width="388" height="706" rx="0" fill="#e4e7eb" stroke="#c7ced5" opacity="0.88"/>
+<rect x="64" y="369" width="358" height="283" rx="12" fill="white" stroke="#202933" opacity="1"/>
+<text x="84" y="408" font-size="23" font-weight="650" fill="#202933">Rezept löschen?</text>
+<text x="84" y="449" font-size="15" font-weight="400" fill="#202933">„Tomatenpasta“ und das Foto</text>
+<rect x="381" y="428" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="386" y="444" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="84" y="474" font-size="15" font-weight="400" fill="#202933">werden dauerhaft entfernt.</text>
+<rect x="84" y="515" width="318" height="46" rx="7" fill="white" stroke="#202933" opacity="1"/>
+<text x="96" y="544" font-size="14" font-weight="650" fill="#202933">Abbrechen</text>
+<rect x="364" y="526" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="369" y="542" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<rect x="84" y="579" width="318" height="46" rx="7" fill="#202933" stroke="#202933" opacity="1"/>
+<text x="96" y="608" font-size="14" font-weight="650" fill="white">Rezept löschen</text>
+<rect x="364" y="590" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="369" y="606" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<rect x="492" y="182" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="497" y="198" font-size="12" font-weight="650" fill="#205b92">D1</text>
+<text x="538" y="199" font-size="17" font-weight="650" fill="#202933">Betroffenes Rezept</text>
+<text x="538" y="225" font-size="14" font-weight="400" fill="#586470">Titel aus dem angezeigten Rezept.</text>
+<text x="538" y="248" font-size="14" font-weight="400" fill="#586470">Bild, Zutaten und Schritte werden mit entfernt.</text>
+<rect x="492" y="300" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="497" y="316" font-size="12" font-weight="650" fill="#48545f">L1</text>
+<text x="538" y="317" font-size="17" font-weight="650" fill="#202933">Abbrechen</text>
+<text x="538" y="343" font-size="14" font-weight="400" fill="#586470">Schließt nur den Dialog; kein Request.</text>
+<rect x="492" y="395" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="497" y="411" font-size="12" font-weight="650" fill="#8d4d0c">E1</text>
+<text x="538" y="412" font-size="17" font-weight="650" fill="#202933">Bestätigtes Löschen</text>
+<text x="538" y="438" font-size="14" font-weight="400" fill="#586470">DELETE mit cookbookId / id im Pfad</text>
+<text x="538" y="461" font-size="14" font-weight="400" fill="#586470">If-Match = angezeigte version; kein Body.</text>
+<text x="492" y="550" font-size="16" font-weight="650" fill="#202933">Desktop · Dialog max. 420 px, zentriert</text>
+<rect x="492" y="570" width="450" height="180" rx="8" fill="#fafbfc" stroke="#c7ced5" opacity="1"/>
+<rect x="504" y="582" width="426" height="23" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="515" y="598" font-size="11" font-weight="400" fill="#202933">Recipoke     Kochbücher                           Konto   ↗</text>
+<rect x="614" y="624" width="206" height="99" rx="3" fill="white" stroke="#c7ced5" opacity="1"/>
+<text x="624" y="644" font-size="11" font-weight="400" fill="#202933">Titel · Warnung · Aktionen</text>
+<text x="492" y="800" font-size="12" font-weight="650" fill="#586470">ERGEBNIS</text>
+<text x="492" y="830" font-size="14" font-weight="400" fill="#202933">Erfolg → Liste · Konflikt → aktualisiertes Rezept</text>
+<text x="492" y="858" font-size="14" font-weight="400" fill="#202933">Nach Konflikt erneut ansehen und bestätigen.</text>
+<path d="M48 1008 L952 1008" fill="none" stroke="#c7ced5"/>
+<rect x="48" y="1021" width="32" height="23" rx="5" fill="#e6f0fb" stroke="#e6f0fb" opacity="1"/>
+<text x="53" y="1037" font-size="12" font-weight="650" fill="#205b92">D</text>
+<text x="90" y="1038" font-size="13" font-weight="400" fill="#586470">Backend → Anzeige</text>
+<rect x="345" y="1021" width="32" height="23" rx="5" fill="#fff0df" stroke="#fff0df" opacity="1"/>
+<text x="350" y="1037" font-size="12" font-weight="650" fill="#8d4d0c">E</text>
+<text x="387" y="1038" font-size="13" font-weight="400" fill="#586470">Eingabe → Backend</text>
+<rect x="650" y="1021" width="32" height="23" rx="5" fill="#edf0f2" stroke="#edf0f2" opacity="1"/>
+<text x="655" y="1037" font-size="12" font-weight="650" fill="#48545f">L</text>
+<text x="692" y="1038" font-size="13" font-weight="400" fill="#586470">Nur lokal / Navigation</text>
+</svg>
