@@ -15,3 +15,19 @@ backups/
 __pycache__/
 .tools/
 .neon
+
+# Local agent settings, credentials and university source material.
+.agents/
+.codex/
+.aws/
+skills-lock.json
+Hochschulvorlagen/
+
+# Local test output and workstation files.
+TestResults/
+coverage/
+*.log
+*.user
+*.suo
+.DS_Store
+Thumbs.db
