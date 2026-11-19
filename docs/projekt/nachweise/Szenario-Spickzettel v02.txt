@@ -1,0 +1,68 @@
+
+--- Inhaltsstrom 9 ---
+Qualitätsszenarien: Spickzettel
+Mobile Application Backend
+„Die App soll schnell und sicher sein“ lässt sich nicht prüfen. Ein Qualitätsszenario beschreibt eine konkrete Situation und legt fest, woran man erkennt, ob das System sie erfüllt.
+Die sechs Teile eines Szenarios
+Teil
+Frage
+Beispiel MyFlow.Money
+Quelle
+Wer oder was löst das Szenario aus?
+Nutzer in der Bahn, App auf dem Handy
+Stimulus
+Was passiert?
+Die App sendet dieselbe Buchung nach einem Funkloch noch einmal.
+Artefakt
+Welcher Teil des Systems ist betroffen?
+Buchungs-API und gespeicherte Buchungen
+Umgebung
+Unter welchen Bedingungen?
+Normalbetrieb, instabile Mobilfunkverbindung
+Antwort
+Was tut das System?
+Es speichert die Buchung genau einmal und bestätigt beide Anfragen gleich.
+Antwortmaß
+Woran wird das gemessen?
+Keine doppelte Buchung, egal wie oft die App sendet
+Worauf Sie achten sollten
+
+Zahlen statt Adjektive:  Schreiben Sie „Antwort in unter 1 Sekunde bei 200 gleichzeitigen Nutzern“ statt „schnell“. Die Zahl darf eine Annahme sein, wenn Sie sie als Annahme kennzeichnen. Wichtig ist, dass man sie messen kann.
+
+Umgebung immer angeben:  Normalbetrieb, Spitzenlast und Teilausfall sind drei verschiedene Szenarien.
+
+Ein Stimulus pro Szenario:  Steht im Stimulus ein „und“, sind es meist zwei Szenarien.
+
+Antwort und Antwortmaß trennen:  Die Antwort beschreibt, was das System tut. Das Antwortmaß gibt an, woran Sie es messen, zum Beispiel Zeit, Anzahl, Anteil oder Aufwand.
+Typische Auslöser und Maße je Qualitätsattribut
+Die Tabelle hilft beim Sammeln von Szenarien. Sie nennt je Attribut einen häufigen Auslöser und typische Maße.
+Attribut
+Typischer Stimulus
+Typisches Antwortmaß
+Verfügbarkeit
+Eine Komponente oder ein angebundener Dienst fällt aus.
+Ausfallzeit, Umfang des eingeschränkten Betriebs, Zeit bis zur Erkennung
+Performanz
+Anfragen treffen ein, gleichmäßig, periodisch oder in Spitzen.
+Antwortzeit (Median und P95/P99), Durchsatz, Anteil verlorener Anfragen
+Sicherheit
+Jemand versucht, fremde Daten zu lesen oder zu ändern.
+Anteil abgewehrter Zugriffe, Zeit bis zur Entdeckung, vollständige Protokollierung
+Änderbarkeit
+Eine Anforderung ändert sich oder eine Funktion kommt hinzu.
+Aufwand in Zeit, Anzahl geänderter Module, keine ungewollten Nebenwirkungen
+Testbarkeit
+Ein Stand soll geprüft werden, in der Entwicklung, in der CI oder bei der Abnahme.
+Aufwand bis zu einem aussagekräftigen Testergebnis, Abdeckung der Schnittstellen
+Deployability
+Ein neuer Stand soll in Betrieb gehen oder zurückgerollt werden.
+Zeit und Schritte bis zum Betrieb, Dauer eines Rollbacks, Fehlerrate je Auslieferung
+Integrierbarkeit
+Ein fremdes System soll angebunden werden.
+Aufwand, Anzahl der betroffenen Schnittstellen
+Energieeffizienz
+Eine Last soll mit begrenztem Energieverbrauch bewältigt werden.
+Verbrauch je Nutzeraktion, Akkuverbrauch am Gerät
+Vom Szenario zum Utility Tree
+Ordnen Sie jedes Szenario seinem Qualitätsattribut zu und bewerten Sie es zweimal mit H, M oder L: einmal nach der Wichtigkeit für das Produkt, einmal nach dem technischen Risiko bzw. der Schwierigkeit, die gewünschte Antwort umzusetzen. Die Szenarien mit H und H bestimmen die Architektur am stärksten. Mit ihnen fangen Sie beim Entwurf an.
+Quelle: Bass, Clements, Kazman: Software Architecture in Practice, 4. Aufl., Addison-Wesley, 2022, Kap. 3 (Szenarien), Kap. 4 bis 13 (Qualitätsattribute), Kap. 19 und 21 (Utility Tree).

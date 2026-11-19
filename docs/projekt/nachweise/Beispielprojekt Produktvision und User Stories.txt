@@ -1,0 +1,150 @@
+
+--- Inhaltsstrom 10 ---
+Mobile Application Backend · Beispielprojekt MyFlow.Money
+Seite 1
+MyFlow.Money
+Produktvision und User Stories
+Produktvision
+MyFlow.Money hilft Menschen, ihr Geld im Blick zu behalten und bewusster damit umzugehen, allein, als Paar, in der Familie oder in der WG. Einnahmen und Ausgaben sind in Sekunden erfasst: am Handy, an der Uhr, per Sprache oder mit einem Foto des Belegs, auch unterwegs ohne Netz. Budgets, Auswertungen und Pläne zeigen, wohin das Geld fließt, was am Monatsende übrig bleibt und wie weit ein Sparziel ist. Wer gemeinsam wirtschaftet, teilt Konten und Budgets, legt fest, wer was sehen darf, und rechnet fair miteinander ab.
+Lehrprojekt der Vorlesung „Mobile Application Backend". Alle Daten sind synthetisch.
+User Stories
+Die Stories beschreiben das ganze Produkt. Sie sind kurz und informell und halten nur die Quintessenz einer Anforderung fest. Details werden ausgehandelt, wenn eine Story umgesetzt wird.  Fett gedruckte Stories setzt das Beispielprojekt der Vorlesung um, die übrigen gehören zum Produkt und bleiben im Backlog.
+Konten
+1
+Ein Nutzer kann mehrere Konten verschiedener Art führen (Bargeld, Bankkonto, Kreditkarte, PayPal) und sieht sie in einer Liste.
+2
+Ein Nutzer kann ein Konto öffnen und dessen Buchungen durchblättern, neueste zuerst, seitenweise.
+3
+Ein Nutzer kann virtuelle Unterkonten für Budgets und Rücklagen anlegen.
+Buchungen erfassen
+4
+Ein Nutzer kann eine Ausgabe oder Einnahme erfassen — mit Betrag, Datum, Kategorie und einer kurzen Bezeichnung; ein Empfänger ist optional.
+5
+Ein Nutzer kann das Erfassen einer Buchung nach einem Netzabbruch gefahrlos wiederholen — die Buchung wird genau einmal gespeichert.
+6
+Ein Nutzer kann Geld zwischen zwei eigenen Konten umbuchen; dabei entsteht und verschwindet nie Geld.
+7
+Ein Nutzer kann auch Verbindlichkeiten und Vermögenswerte als Buchungen führen.
+8
+Ein Nutzer kann einer Buchung eine Person zuordnen.
+9
+Ein Nutzer kann eine Buchung auf mehrere Kategorien aufteilen (Split-Buchung).
+10
+Ein Nutzer kann eigene Kategorien festlegen.
+11
+Ein Nutzer kann zu einer Buchung einen Beleg als Foto ablegen.
+12
+Die App erkennt aus einem Belegfoto die Angaben der Buchung.
+13
+Ein Nutzer kann eine Buchung per Sprache oder an der Uhr erfassen.
+14
+Die App vervollständigt beim Erfassen die Angaben aus früheren Buchungen.
+15
+Ein Nutzer kann regelmäßige Buchungen anlegen, zum Beispiel Miete oder Gehalt.
+16
+Ein Nutzer kann ohne Netz erfassen, und die App gleicht später mit der Cloud ab.
+Buchungen finden
+17
+Ein Nutzer kann Buchungen nach Kategorie und Zeitraum filtern.
+18
+Ein Nutzer kann Buchungen über den Text der Bezeichnung durchsuchen.
+19
+Ein Nutzer sieht im Kalender, welche Tage vollständig erfasst sind.
+Gemeinsam wirtschaften
+20
+Ein Nutzer kann persönliche Ausgaben von Gemeinschaftsausgaben unterscheiden.
+21
+Die Mitglieder einer WG können Einkäufe aufteilen und das Haushaltskonto ausgleichen.
+22
+Mehrere Nutzer können ein gemeinsames Budget führen.
+23
+Mehrere Nutzer können ein Budget untereinander aufteilen, und die App berechnet den Ausgleich.
+24
+Eine Familie kann Konten teilen, mit Rollen, Rechten und festgelegten Sichtbarkeiten.
+25
+Ein Nutzer kann eine Buchung vor den anderen verschleiern, zum Beispiel ein Geschenk.
+
+--- Inhaltsstrom 11 ---
+Mobile Application Backend · Beispielprojekt MyFlow.Money
+Seite 2
+Budgets und Auswertung
+26
+Ein Nutzer sieht eine Monatsübersicht: Einnahmen, Ausgaben je Kategorie und Überschuss.
+27
+Ein Nutzer kann je Kategorie ein Monatsbudget festlegen.
+28
+Ein Nutzer wird benachrichtigt, wenn die Ausgaben einer Kategorie ihr Budget überschreiten.
+29
+Ein Nutzer kann zum Monatsbeginn eine Zusammenfassung des Vormonats erhalten.
+30
+Ein Nutzer kann sich die Auswertung auch wöchentlich zusenden lassen.
+31
+Ein Nutzer kann aus seinen Budgets einen Haushaltsplan aufstellen.
+32
+Ein Nutzer kann eine Buchung für die Auswertung einem anderen Monat zuordnen.
+33
+Ein Nutzer sieht ein persönliches Dashboard mit den wesentlichen Zahlen auf einen Blick.
+34
+Ein Nutzer kann seine Zahlen mit denen anderer Nutzer vergleichen.
+Planen und Ziele
+35
+Ein Nutzer kann erwartete zukünftige Ausgaben erfassen.
+36
+Ein Nutzer kann Rücklagen bilden.
+37
+Ein Nutzer kann Sparziele und persönliche Ziele setzen und den Fortschritt verfolgen.
+38
+Ein Nutzer sieht seinen Cash-Flow und kann ihn für die kommenden Monate planen.
+39
+Ein Nutzer wird daran erinnert, seine Buchungen zu erfassen.
+40
+Ein Nutzer wird erinnert, wenn eine manuelle Zahlung ansteht, zum Beispiel das Taschengeld.
+Weitere Geldsituationen
+41
+Ein Nutzer kann festhalten, was er verliehen oder geliehen hat, und sieht, was noch offen ist.
+42
+Ein Nutzer kann Ausgaben verfolgen, die er erstattet bekommt, zum Beispiel aus einer Spesen- oder Versicherungsabrechnung.
+43
+Ein Nutzer kann Belege kennzeichnen, die er für die Steuererklärung braucht, und sie gesammelt abrufen.
+Bank und Daten
+44
+Ein Nutzer kann ein Konto mit einem (simulierten) Bank-Feed verknüpfen und sieht, wann zuletzt abgeglichen wurde.
+45
+Ist der Bank-Feed nicht erreichbar, sieht der Nutzer weiterhin den letzten bekannten Stand — klar als solcher markiert, nie als aktuell ausgegeben.
+46
+Die App erfasst Buchungen automatisch aus den Umsätzen der Bank.
+47
+Ein Nutzer kann seine Daten exportieren, zum Beispiel nach Excel.
+48
+Ein Nutzer kann seine Daten nur lokal oder in seiner eigenen iCloud speichern.
+Zugang und Sicherheit
+49
+Die Daten eines Nutzers gehören ihm: Kein anderer Nutzer kann seine Konten und Buchungen lesen oder ändern.
+50
+Ein Nutzer kann sich registrieren, anmelden und sein Benutzerkonto verwalten.
+51
+Die Daten eines Nutzers sind gegen fremden Zugriff geschützt.
+52
+Die Daten eines Nutzers werden gesichert und lassen sich wiederherstellen.
+Assistent, Geräte und Einstieg
+53
+Ein Assistent gibt dem Nutzer Tipps zum Umgang mit seinen Finanzen.
+54
+Ein Nutzer kann die App im Chat bedienen und befragen.
+55
+Ein Nutzer kann MyFlow.Money auf iPhone, Mac, Windows, Linux, im Web und über Alexa nutzen.
+56
+Ein neuer Nutzer wird durch die ersten Schritte geführt.
+57
+Ein Nutzer kann die App in seiner Sprache verwenden.
+Betrieb als Produkt
+58
+Ein Nutzer kann die App eine Zeit lang testen und danach per In-App-Kauf ein Abo abschließen.
+59
+Der Betreiber sieht, wie die App genutzt wird und wo sie abstürzt.
+60
+Der Betreiber verwaltet das System über eine Admin-Oberfläche und kann interne Freischaltcodes vergeben.
+61
+Der Betreiber kann veraltete App-Versionen zu einem Update zwingen.
+62
+Ältere App-Versionen funktionieren nach einer Änderung des Backends weiter (API-Versionierung).

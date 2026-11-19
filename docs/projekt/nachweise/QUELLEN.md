@@ -1,0 +1,49 @@
+# Quellen und Beleggrenzen
+
+Stand: 18.11.2026. B = aktuelles Backend-Repository; F = eindeutig zugehöriges lokales Schwester-Repository `RecipeAtlasFrontend`. Links gehen auf den untersuchten Arbeitsstand, einschließlich vorbestehender Frontend-Änderungen. Der historische Ausgangsstand wurde bei der Übernahme anhand von 437 Datei-Hashes geprüft; die einmalige lokale Hashdatei wurde danach entfernt. Keine Geheimnisdateien oder Datenbankinhalte wurden ausgewertet.
+
+## Q-01 – Produkt, Vorlagen und Architektur
+
+- B: [README](../../../README.md), [Architektur](../../architecture/README.md), [ADR 001](../../architecture/adr/001-modular-monolith.md), [ADR 005](../../architecture/adr/005-sqlite-images.md), [ADR 017](../../architecture/adr/017-cloud-deployment.md).
+- F: README (lokale Quelle: `RecipeAtlasFrontend/README.md`; nicht veröffentlicht), Architektur (lokale Quelle: `RecipeAtlasFrontend/docs/architecture.md`; nicht veröffentlicht).
+- Hochschulvorlagen: Beispielprojekt (lokale Quelle: `Hochschulvorlagen/Beispielprojekt Produktvision und User Stories.pdf`; nicht veröffentlicht), Story-Template (lokale Quelle: `Hochschulvorlagen/Template User Stories.pdf`; nicht veröffentlicht), Szenario-Spickzettel (lokale Quelle: `Hochschulvorlagen/Szenario-Spickzettel v02.pdf`; nicht veröffentlicht).
+- Lokale Textauszüge: [Beispiel](Beispielprojekt%20Produktvision%20und%20User%20Stories.txt), [Template](Template%20User%20Stories.txt), [Spickzettel](Szenario-Spickzettel%20v02.txt). Mit Python-Standardbibliothek aus PDF-Textströmen und eingebetteten Unicode-Tabellen extrahiert, keine Installation. Layout, Fettmarkierungen und Seitenumbrüche werden nicht vollständig reproduziert. Insbesondere wurde keine konkrete Core-Auswahl aus der Fettmarkierung des fachfremden Beispiels abgeleitet.
+
+## Q-02 – Routen und Sitzungen
+
+- F: Hauptrouten (lokale Quelle: `RecipeAtlasFrontend/src/app/app-routing.module.ts`; nicht veröffentlicht), Rezeptrouten (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/recipes-routing.module.ts`; nicht veröffentlicht), Kochbuch-Guard (lokale Quelle: `RecipeAtlasFrontend/src/app/core/guards/cookbook.guard.ts`; nicht veröffentlicht), AuthService (lokale Quelle: `RecipeAtlasFrontend/src/app/core/services/auth.service.ts`; nicht veröffentlicht), Login (lokale Quelle: `RecipeAtlasFrontend/src/app/features/auth/pages/login/login.component.ts`; nicht veröffentlicht), Login-Template (lokale Quelle: `RecipeAtlasFrontend/src/app/features/auth/pages/login/login.component.html`; nicht veröffentlicht).
+- B: [Auth-Endpunkte](../../../backend/RecipeAtlas.Api/Features/Authentication/Api/AuthenticationEndpoints.cs), [LoginInput](../../../backend/RecipeAtlas.Api/Features/Authentication/Api/AuthenticationContracts.cs), [Account-DTOs](../../../backend/RecipeAtlas.Api/Features/Accounts/Application/AccountContracts.cs), [Programmstart und Identity](../../../backend/RecipeAtlas.Api/Program.cs), [Einladung und persönliches Kochbuch](../../../backend/RecipeAtlas.Api/Features/Accounts/Application/Invitations.cs).
+
+## Q-03 – Kochbuchkontext und Rechte
+
+- B: [Endpunkte](../../../backend/RecipeAtlas.Api/Features/Cookbooks/Api/CookbookEndpoints.cs), [DTOs und Validierung](../../../backend/RecipeAtlas.Api/Features/Cookbooks/Application/CookbookContracts.cs), [Zugriff](../../../backend/RecipeAtlas.Api/Features/Cookbooks/Application/CookbookAccess.cs), [Domain und Rollen](../../../backend/Recipoke.Domain/Cookbooks/Cookbook.cs).
+- F: Übersicht (lokale Quelle: `RecipeAtlasFrontend/src/app/features/cookbooks/pages/cookbook-overview/cookbook-overview.component.ts`; nicht veröffentlicht), Template (lokale Quelle: `RecipeAtlasFrontend/src/app/features/cookbooks/pages/cookbook-overview/cookbook-overview.component.html`; nicht veröffentlicht), CookbookService (lokale Quelle: `RecipeAtlasFrontend/src/app/core/services/cookbook.service.ts`; nicht veröffentlicht).
+
+## Q-04 – Rezeptvertrag, Speicherung und Suche
+
+- B: [Endpunkte](../../../backend/RecipeAtlas.Api/Features/Recipes/Api/RecipeEndpoints.cs), [DTOs](../../../backend/RecipeAtlas.Api/Features/Recipes/Application/RecipeContracts.cs), [Validierung](../../../backend/RecipeAtlas.Api/Features/Recipes/Application/RecipeValidation.cs), [Suche und Seiteneinteilung](../../../backend/RecipeAtlas.Api/Features/Recipes/Application/ListRecipes.cs), [Domain](../../../backend/Recipoke.Domain/Recipes/Recipe.cs), [OpenAPI-Snapshot](../../../contracts/recipoke.openapi.json).
+- F: API-Service (lokale Quelle: `RecipeAtlasFrontend/src/app/core/services/recipe-api.service.ts`; nicht veröffentlicht), Modelle (lokale Quelle: `RecipeAtlasFrontend/src/app/core/models/recipe.model.ts`; nicht veröffentlicht), Liste (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-list/recipe-list.component.ts`; nicht veröffentlicht), Listen-Template (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-list/recipe-list.component.html`; nicht veröffentlicht).
+
+## Q-05 – Editor, Bild und Konflikte
+
+- F: Editor-Template (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-editor/recipe-editor.component.html`; nicht veröffentlicht), Koordinator (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-editor/recipe-editor-coordinator.ts`; nicht veröffentlicht), Formular (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-editor/recipe-editor-form.ts`; nicht veröffentlicht), Bildzustand (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-editor/recipe-editor-photo.ts`; nicht veröffentlicht), Bildaufbereitung (lokale Quelle: `RecipeAtlasFrontend/src/app/core/utils/photo.ts`; nicht veröffentlicht), Konfliktvergleich (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-editor/recipe-conflict-review.ts`; nicht veröffentlicht).
+- B: [Update](../../../backend/RecipeAtlas.Api/Features/Recipes/Application/UpdateRecipe.cs), [Delete](../../../backend/RecipeAtlas.Api/Features/Recipes/Application/DeleteRecipe.cs), [Bild-Upload](../../../backend/RecipeAtlas.Api/Common/Application/ImageUpload.cs), [Versionsvorbedingung](../../../backend/RecipeAtlas.Api/Common/Application/VersionPrecondition.cs), [Konflikt-Runbook](../../shared-editing.md).
+
+## Q-06 – Kochen und lokale Interaktion
+
+- F: Detail-Komponente (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-detail/recipe-detail.component.ts`; nicht veröffentlicht), Template (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-detail/recipe-detail.component.html`; nicht veröffentlicht), Mengenberechnung (lokale Quelle: `RecipeAtlasFrontend/src/app/core/utils/quantity.ts`; nicht veröffentlicht).
+- B: [Mengenvertrag](../../quantity-strings.md), [Einheiten](../../../backend/Recipoke.Domain/Quantities/MeasurementUnits.json).
+
+## Q-07 – Erweiterungen
+
+- B: [Importvertrag](../../../backend/RecipeAtlas.Api/Features/RecipeImports/Contracts/RecipeImportContracts.cs), [Import-Endpunkt](../../../backend/RecipeAtlas.Api/Features/RecipeImports/Api/RecipeImportEndpoints.cs), [Social-Import](../../social-description-import.md), [Accounts und Kochbücher](../../accounts-and-cookbooks.md), [Shopping-Endpunkte](../../../backend/RecipeAtlas.Api/Features/Shopping/Api/ShoppingEndpoints.cs), [Shopping-Runbook](../../shared-shopping-lists.md), [PWA-ADR](../../architecture/adr/016-installable-webapp.md).
+- F: PWA (lokale Quelle: `RecipeAtlasFrontend/docs/pwa.md`; nicht veröffentlicht), Darstellung – lokale Änderungen (lokale Quelle: `RecipeAtlasFrontend/docs/appearance.md`; nicht veröffentlicht), Importdialog (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/components/recipe-import-dialog/recipe-import-dialog.component.ts`; nicht veröffentlicht).
+
+## Q-08 – Stack und historische Prüfberichte
+
+- B: [API-Projekt](../../../backend/RecipeAtlas.Api/Recipoke.Api.csproj), [Domain-Projekt](../../../backend/Recipoke.Domain/Recipoke.Domain.csproj), [Providerwahl](../../../backend/RecipeAtlas.Api/Infrastructure/Persistence/PersistenceRegistration.cs), [yt-dlp-Pins](../../../tools/requirements-yt-dlp.txt), [Cloud-Prüfbericht vom 29.10.2026](../../verification/cloud-deployment.md), [Shared-Editing-Nachweise](../../verification/shared-editing-fixes.md).
+- F: package.json (lokale Quelle: `RecipeAtlasFrontend/package.json`; nicht veröffentlicht), Lockfile (lokale Quelle: `RecipeAtlasFrontend/package-lock.json`; nicht veröffentlicht), Darstellungs-Prüfbericht (lokale Quelle: `RecipeAtlasFrontend/docs/verification/appearance.md`; nicht veröffentlicht).
+- Vorhandene Tests, nur als Quelltext-/Dateinachweis: [RecipeOperationTests](../../../tests/Recipoke.Tests/RecipeOperationTests.cs), [ConcurrencyTests](../../../tests/Recipoke.Tests/ConcurrencyTests.cs), [AccountBoundaryTests](../../../tests/Recipoke.Tests/AccountBoundaryTests.cs), Frontend-Detailtests (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-detail/recipe-detail.component.spec.ts`; nicht veröffentlicht), Frontend-Editortests (lokale Quelle: `RecipeAtlasFrontend/src/app/features/recipes/pages/recipe-editor/recipe-editor.component.spec.ts`; nicht veröffentlicht).
+- Visuell gelesene bestehende Screenshots: mobiler Editor (lokale Quelle: `RecipeAtlasFrontend/docs/verification/appearance/generated/mobile-recipe-editor-dark.png`; nicht veröffentlicht), mobile Detailseite (lokale Quelle: `RecipeAtlasFrontend/docs/verification/appearance/generated/mobile-recipe-detail-dark.png`; nicht veröffentlicht). Diese synthetischen historischen Ansichten belegen keine neue Laufzeitprüfung.
+
+Historische Testzahlen gelten nur für die jeweils dort angegebenen Revisionen. Sie wurden für diesen Blueprint weder wiederholt noch auf den aktuellen, lokal geänderten Frontend-Stand übertragen.

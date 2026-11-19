@@ -1,0 +1,55 @@
+
+--- Inhaltsstrom 2 ---
+User Stories
+Project XXX
+1
+User Stories
+Project XXX
+Version 1: Initial Draft
+
+--- Inhaltsstrom 12 ---
+User Stories
+Project XXX
+2
+Content
+1
+Template
+..........................................................................................................................................
+3
+
+--- Inhaltsstrom 20 ---
+User Stories
+Project XXX
+3
+1
+Template
+Short Title of User Story
+ID
+Short Identifier
+Priority
+E.g., Core und Extension
+Description
+The User Story (1 or 2 sentences)
+Additional Aspects
+Additional points to consider during implementation and testing
+Wireframe(s)
+How should the user interface look like?
+Required
+What must be delivered by 3
+rd
+parties (access to an API, graphical assets,
+etc.)?
+Dependencies
+Dependencies to other user stories
+Definition of Done /
+Acceptance Criteria
+What must be completed to accept the user story (e.g., code review,
+testing)
+Developer Tasks
+From the developers’ point of view: Which tasks must be completed to
+completely realize the user story?
+Open Issues
+Open issues and questions to be discussed / clarified with the product
+owner or other stakeholders
+
+--- Inhaltsstrom 108 ---
